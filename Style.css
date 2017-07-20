@@ -1,20 +1,19 @@
-﻿/*HEADER STYLING*/
-
-li {
-    display: inline;
-    float: right;
+﻿body {
+    background-image: url('Images/background.jpg'); /*this will change all background color*/
 }
-
-/*#logoIMG {
-    width:150px;
-}*/
-
-/*div.page-header {
-    margin-top:0px;
-    background-color:transparent;
-    padding-top:3px;
-    margin-bottom:0px;
-}*/
 
 /*NAVBAR STYLING*/
 
+.navbar-wrapper {
+    margin-top: 30px;
+    background-color:transparent;
+}
+
+#navvy a {
+    color:#000000; /*this changes color of home, support, about*/
+}
+
+.nav.navbar-nav {
+    display: inline;
+    float: right;
+}
